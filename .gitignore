@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/__pycache__/
+ml/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+frontend/dist/
+dist/
+build/
+
+# Local databases & logs
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Keep data and models for easy testing
+!data/
+!models/
